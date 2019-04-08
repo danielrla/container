@@ -1,0 +1,6 @@
+FROM centos:7
+
+MAINTAINER Daniel Rios
+
+RUN yum update -y && \
+    yum clean all
